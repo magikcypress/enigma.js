@@ -10,13 +10,13 @@ your Qlik Sense Enterprise deployment.
 
 ## Prerequisites
 
-To run this example, you need to ...
+To run this example, you need to …
 
-* ... use Qlik Sense Enterprise version June 2017 or later
-* ... generate a private/public key pair for JWT signing and verification:
+* … use Qlik Sense Enterprise version June 2017 or later
+* … generate a private/public key pair for JWT signing and verification:
   * `openssl genrsa -out private.key 1024`
   * `openssl req -new -x509 -key private.key -out public.key`
-* ... setup a virtual proxy that uses JWT authentication
+* … setup a virtual proxy that uses JWT authentication
 
 Once these prerequisites are fulfilled, modify the code to match your environment
 (highlighted with comments in the example code).

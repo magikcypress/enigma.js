@@ -140,12 +140,12 @@ See below what `args` contains.
 | `config`                | Object   | A reference to the enigma.js configuration object, including default values. |
 | `api`                   | Object   | The newly generated API instance. |
 
-### `mixin.extend.myNonExistingMethod(param1, param2, ...)`
+### `mixin.extend.myNonExistingMethod(param1, param2, …)`
 
 `mixin.extend` is an object containing methods to extend the generated API with. These method names **cannot already exist** or
 enigma.js will throw an error.
 
-### `mixin.override.someExistingMethod(base, param1, param2, ...)`
+### `mixin.override.someExistingMethod(base, param1, param2, …)`
 
 `mixin.override` is an object containing methods that overrides existing API methods. These method names *needs to exist already** or
 engima.js will throw an error. Be careful when overriding, you may break expected behaviors in other mixins or your

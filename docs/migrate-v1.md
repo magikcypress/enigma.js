@@ -44,7 +44,7 @@ version 1:
 const schema = require('enigma.js/schemas/qix/3.2.0/schema.json');
 ```
 
-...you would do this in enigma.js version 2:
+…you would do this in enigma.js version 2:
 
 ```js
 const schema = require('enigma.js/schemas/3.2.0.json');
@@ -160,7 +160,7 @@ enigma.getService('qix', config).then((qix) => {
 });
 ```
 
-...you would do this in version 2:
+…you would do this in version 2:
 
 ```js
 const enigma = require('enigma.js');
@@ -258,7 +258,7 @@ in the enigma.js configuration for your mixin.
 
 ## Trying to fetch non-existing objects
 
-In enigma.js version 1 we never normalized the QIX Engine API in regards to fetching objects, which
+In enigma.js version 1 we never normalized the QIX Engine API in regard to fetching objects, which
 caused the promise to be resolved with a null value:
 
 ```js
@@ -301,7 +301,7 @@ enigma.getService('qix', config).then((qix) => {
 });
 ```
 
-...you would do this in version 2:
+…you would do this in version 2:
 
 ```js
 const enigma = require('enigma.js');
